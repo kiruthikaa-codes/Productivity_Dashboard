@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>To-Do</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div id="title" >
+
+    <p>My Dashboard</p>
+
+</div>
+
+    </div>
+
+    <div class="container">
+        <div class="left-column">
+          <div class="spotify-container">
+            <iframe class="spotify-iframe" src="https://open.spotify.com/embed/playlist/20fPkaafHjwTZg4GYNmsPh?utm_source=generator" frameborder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture" loading="lazy"></iframe>
+        </div>
+         
+            <div class="journal-container">
+              <h2>Journal</h2>
+              <textarea id="journal-input" placeholder="Write your notes here..."></textarea>
+              <button id="add-note-btn">Add Note</button>
+              <ul id="journal-list"></ul>
+             
+          </div>
+           
+        </div>
+
+       <div class="twothings">
+
+        <table align-items="center">
+          <tr> <td align="center">
+            <div class="pomodoro-timer">
+              <h2>Timer</h2>
+              <div id="timer">
+                  <span id="minutes">25</span>:<span id="seconds">00</span>
+              </div>
+              <button id="start-timer">Start</button>
+              <button id="reset-timer">Reset</button>
+          </div>
+
+          </td>
+            
+          </tr>
+          <tr>
+            <td>
+              <div class="todo-container">
+                <input type="text" id="todo-input" placeholder="Add a new task">
+                <button id="add-btn">Add</button>
+                <ul id="todo-list"></ul>
+            </div>
+      
+            </td>
+          </tr>
+        </table>
+       </div>
+      
+        
+    </div>
+  
+
+    <script src="script.js"></script>
+</body>
+</html>
